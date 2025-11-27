@@ -14,3 +14,4 @@ for i in lines:
             sports[j] = 1
 
 print(*sorted(sports.items(), key=lambda item: item[1], reverse=True)[:3])
+
